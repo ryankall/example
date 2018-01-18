@@ -1,7 +1,8 @@
 # example
 
 `
-node 6.11.x >= is  requires
+nodejs 6.11.x >= is  required
+My Verison of npm: 5.6.0
 `
 ```
 npm install 
