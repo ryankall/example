@@ -22,16 +22,12 @@ import { isPlatformBrowser } from '@angular/common';
 import { MatButtonModule } from '@angular/material';
 import { MatFileUploadModule } from 'angular-material-fileupload';
 
-
 @NgModule({
   imports: [
     BrowserModule.withServerTransition({ appId: 'tour-of-heroes' }),
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
-    HttpClientInMemoryWebApiModule.forRoot(
-      InMemoryDataService, { dataEncapsulation: false }
-    ),
     MatButtonModule,
     BrowserModule,
     MatFileUploadModule
